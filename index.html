@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TravelBug </title>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <div class="logo-icon">◇</div>
+            <span>TravelBug</span>
+        </div>
+
+        <nav class="nav-links">
+            <a href="#">Destinations</a>
+            <a href="#">Tours</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+            <button class="book-btn">Book Now</button>
+        </div>
+    </header>
+
+    <main class="hero">
+    <video class="hero-video" autoplay muted loop playsinline>
+        <source src="./From Klickpin.com- 18507048539672091-pin-id-18507048539672091.mp4" type="video/mp4">
+    </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>
+                Discover Your Next
+                <br>
+                <span>Adventure</span>
+            </h1>
+            <p class="description">
+                Explore breathtaking destinations around the world with our
+                expertly curated tours. From ancient wonders to tropical
+                paradises, your dream vacation awaits.
+            </p>
+
+            <div class="hero-buttons">
+
+                <button class="primary-btn">
+                    Explore Tours
+                    <span>→</span>
+                </button>
+
+                <button class="secondary-btn">
+                    <span>▶</span>
+                    Watch Our Story
+                </button>
+            </div>
+
+            <div class="rating">
+
+                <div class="stat">
+                    <h2>50+</h2>
+                    <p>Destinations</p>
+                </div>
+                <div class="stat">
+                    <h2>200+</h2>
+                    <p>Tour Packages</p>
+                </div>
+                <div class="stat">
+                    <h2>15K+</h2>
+                    <p>Happy Travelers</p>
+                </div>
+                <div class="stat">
+                    <h2>98%</h2>
+                    <p>Satisfaction Rate</p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <section class="search">
+                <div class="search-box">
+                    <div class="search-item">
+                        <label>Destination</label>
+                        <div class="input-box">
+                            <input type="text" placeholder="Where to?">
+                        </div>
+                    </div>
+
+                    <div class="search-item">
+                        <label>Check In</label>
+                        <div class="input-box">
+                            <input type="date">
+                        </div>
+                    </div>
+
+                    <div class="search-item">
+                        <label>Check Out</label>
+                        <div class="input-box">
+                            <input type="date">
+                        </div>
+                    </div>
+
+                    <div class="search-item">
+                        <label>Travelers</label>
+                        <div class="input-box">
+                            <input type="text" value="1 Traveler">
+                        </div>
+                    </div>
+
+                    <button class="search-btn">
+                        Search Tours
+                    </button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <section class="destinations" id="destinations">
+        <div class="destination-heading">
+            <h2>Explore the World</h2>
+            <p>
+                From sun-soaked beaches to historic cities,
+                discover our most sought-after destinations.
+            </p>
+        </div>
+
+        <div class="destination-grid">
+
+            <div class="destination-card">
+                <img src="https://hblimg.mmtcdn.com/content/hubble/img/bali/mmt/destination/t_trp/m_bali_l_393_629.jpg?im=Resize=(480,342)" alt="Bali">
+                <div class="card-overlay"></div>
+                <div class="card-content">
+                    <div class="rating">
+                        <span>★</span>
+                        4.9
+                        <b>•</b>
+                        24 tours
+                    </div>
+                    <h3>Bali, Indonesia</h3>
+                    <p>
+                        Tropical paradise with stunning temples
+                        and beaches
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="destination-card">
+                <img src="https://hblimg.mmtcdn.com/content/hubble/img/lakshadweep/mmt/destination/t_trp/m_Lakshadweep_l_580_870.jpg?im=Resize=(480,342)" alt="">
+                <div class="card-overlay"></div>
+                <div class="card-content">
+                    <div class="rating">
+                        <span>★</span>
+                        4.8
+                        <b>•</b>
+                        18 tours
+                    </div>
+                    <h3>Lakshadweep</h3>
+                    <p>
+                       Adorning the south-western coast of India, lies the spectacular coral island chain of Lakshadweep.
+                    </p>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <img src="https://hblimg.mmtcdn.com/content/hubble/img/gangtok/mmt/destination/t_trp/m_Gangtok_activity_heriage_l_687_1061.jpg?im=Resize=(480,342)" alt= "">
+                <div class="card-overlay"></div>
+                <div class="card-content">
+                    <div class="rating">
+                        <span>★</span>
+                        4.9
+                        <b>•</b>
+                        12 tours
+                    </div>
+                    <h3>Gangtok, Sikkim</h3>
+                    <p>
+                      Dotted with sacred Buddhist monasteries, the largest town in Sikkim, Gangtok.
+                    </p>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSafcI7uDTDmg2Yjb1nt2qoHxf09d5WnqZrVd712bSNA&s=10" alt="Tokyo">
+                <div class="card-overlay"></div>
+                <div class="card-content">
+                    <div class="rating">
+                        <span>★</span>
+                        4.8
+                        <b>•</b>
+                        30 tours
+                    </div>
+                    <h3>Tokyo, Japan</h3>
+                    <p>
+                        Modern city filled with culture,
+                        food and technology
+                    </p>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <img src="https://blog.yatradham.org/wp-content/uploads/2023/07/jaipur.jpg" alt="Maldives">
+                <div class="card-overlay"></div>
+                <div class="card-content">
+                    <div class="rating">
+                        <span>★</span>
+                        4.9
+                        <b>•</b>
+                        20 tours
+                    </div>
+                    <h3>YatraDham, Jaipur</h3>
+                    <p>
+                        Jaipur is the capital of the Royal State of Rajasthan and is popularly Known to be the ‘Pink City’
+                    </p>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <img src="https://hblimg.mmtcdn.com/content/hubble/img/agra/mmt/activities/t_trp/m_activities-agra-taj-mahal_l_400_640.jpg?im=Resize=(480,342)" alt="Switzerland">
+                <div class="card-overlay"></div>
+                <div class="card-content">
+                    <div class="rating">
+                        <span>★</span>
+                        5.0
+                        <b>•</b>
+                        15 tours
+                    </div>
+                    <h3>Taj Mahal, Agra</h3>
+                    <p>
+                        Majestically located on the banks of Yamuna River. 
+                </div>
+            </div>
+        </div>
+        <div class="all-dest">
+                <button>
+                    View all destination
+                    <span>→</span>
+                </button>
+            </div>
+    </section>
+
+
+    <section class="tour-section" id="tours">
+        <div class="tour-heading">
+            <h2>Popular Tour Packages</h2>
+            <p>
+                Carefully crafted journeys for unforgettable experiences.
+            </p>
+        </div>
+        <div class="tour-grid">
+            <div class="tour-card">
+                <div class="tour-image">
+                    <img src="https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2014/02/delhi.jpg" alt="India-Gate">
+                </div>
+                <div class="tour-content">
+                    <div class="location">
+                        India gate, Delhi
+                    </div>
+                    <h3>India-Gate</h3>
+                    <div class="tour-info">
+                        <span>◷ 2 days</span>
+                        <span class="tour-rating">
+                            <b>★</b>
+                            4.9
+                            <small>(128)</small>
+                        </span>
+                    </div>
+                    <div class="tour-tags">
+                        <span>Temple visits</span>
+                        <span>popular markets</span>
+                    </div>
+                    <div class="tour-bottom">
+                        <div class="price">
+                            <small>From</small>
+                            <div>
+                                <strong>$200</strong>
+                                <del>$500</del>
+                            </div>
+                        </div>
+                        <button class="view-btn">
+                            View Tour
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card">
+                <div class="tour-image">
+                    <img src="https://www.emperortraveline.com/wp-content/uploads/2021/12/Thailand-768x614.jpg" alt="Thailand">
+                </div>
+                <div class="tour-content">
+                    <div class="location">
+                        Thailand
+                    </div>
+                    <h3>Thailand, Southeast Asian</h3>
+                    <div class="tour-info">
+                        <span>◷ 10 days</span>
+                        <span class="tour-rating">
+                            <b>★</b>
+                            4.8
+                            <small>(96)</small>
+                        </span>
+                    </div>
+                    <div class="tour-tags">
+                        <span>Street Food</span>
+                        <span>Cleanest beaches</span>
+                    </div>
+                    <div class="tour-bottom">
+                        <div class="price">
+                            <small>From</small>
+                            <div>
+                                <strong>$500</strong>
+                                <del>$750</del>
+                            </div>
+                        </div>
+                        <button class="view-btn">
+                            View Tour
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card">
+                <div class="tour-image">
+                    <img src="https://www.jaypeehotels.com/blog/wp-content/uploads/2024/12/image1-6.jpg" alt="Varanasi">
+                </div>
+                <div class="tour-content">
+                    <div class="location">
+                        Varanasi
+                    </div>
+                    <h3>Varanasi, Uttar Pradesh</h3>
+                    <div class="tour-info">
+                        <span>◷ 4 days</span>
+                        <span class="tour-rating">
+                            <b>★</b>
+                            4.9
+                            <small>(74)</small>
+                        </span>
+                    </div>
+                    <div class="tour-tags">
+                        <span>Dashashwamedh Ghat</span>
+                        <span>Sarnath</span>
+                    </div>
+                    <div class="tour-bottom">
+                        <div class="price">
+                            <small>From</small>
+                            <div>
+                                <strong>$189</strong>
+                            </div>
+                        </div>
+                        <button class="view-btn">
+                            View Tour
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card">
+                <div class="tour-image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTeA0jjednJ6DoymgeU0p3rBu9ttMlfpPOVK7ORkB2A&s=10" alt="Japan">
+                </div>
+                <div class="tour-content">
+                    <div class="location">
+                        <span>⌖</span>
+                        Japan
+                    </div>
+                    <h3>Japan Explorer</h3>
+                    <div class="tour-info">
+                        <span>◷ 12 days</span>
+                        <span class="tour-rating">
+                            <b>★</b>
+                            4.7
+                            <small>(156)</small>
+                        </span>
+                    </div>
+                    <div class="tour-tags">
+                        <span>Tokyo nightlife</span>
+                        <span>Kyoto temples</span>
+                    </div>
+                    <div class="tour-bottom">
+                        <div class="price">
+                            <small>From</small>
+                            <div>
+                                <strong>$3499</strong>
+                                <del>$3999</del>
+                            </div>
+                        </div>
+                        <button class="view-btn">
+                            View Tour
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="all-tours">
+            <button>
+                View all tour packages
+                <span>→</span>
+            </button>
+        </div>
+    </section>
+    
+    <section class="confidence-section">
+        <div class="confidence-heading">
+            <h2>Travel with Confidence</h2>
+            <p>
+                We go above and beyond to ensure your journey is seamless,
+                safe, and unforgettable.
+            </p>
+        </div>
+        <div class="confidence-grid">
+            <div class="confidence-card">
+                <div class="confidence-icon">🛡</div>
+                <h3>Safe & Secure Travel</h3>
+                <p>
+                    Your safety is our priority. All tours include
+                    comprehensive travel insurance and 24/7
+                    emergency support.
+                </p>
+            </div>
+            <div class="confidence-card">
+                <div class="confidence-icon">♧</div>
+                <h3>Expert Local Guides</h3>
+                <p>
+                    Experience destinations through the eyes of
+                    passionate local experts who share authentic
+                    insights.
+                </p>
+            </div>
+            <div class="confidence-card">
+                <div class="confidence-icon">☆</div>
+                <h3>Curated Experiences</h3>
+                <p>
+                    Each tour is thoughtfully designed to balance
+                    must-see attractions with hidden gems.
+                </p>
+            </div>
+            <div class="confidence-card">
+                <div class="confidence-icon">$</div>
+                <h3>Best Price Guarantee</h3>
+                <p>
+                    Get the best value for your money with our
+                    price match promise and exclusive deals.
+                </p>
+            </div>
+            <div class="confidence-card">
+                <div class="confidence-icon">▣</div>
+                <h3>Flexible Booking</h3>
+                <p>
+                    Change your plans with ease. Enjoy flexible
+                    booking options and hassle-free cancellations.
+                </p>
+            </div>
+            <div class="confidence-card">
+                <div class="confidence-icon">◉</div>
+                <h3>24/7 Support</h3>
+                <p>
+                    Our team is always here for you, anytime,
+                    anywhere in the world.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="contact-heading">
+            <h2>Let's Plan Your Adventure</h2>
+            <p>
+                Have questions or ready to start your journey?
+                We're here to help.
+            </p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p>
+                    Whether you have a question about our tours,
+                    need help planning your trip, or simply want
+                    some travel advice, feel free to contact us.
+                </p>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        ✉
+                    </div>
+                    <div>
+                        <h4>Email Us</h4>
+                        <p>hello@wanderlust.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        ☎
+                    </div>
+                    <div>
+                        <h4>Call Us</h4>
+                        <p>+1 800 123 4567</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        ⌖
+                    </div>
+                    <div>
+                        <h4>Visit Us</h4>
+                        <p>123 Adventure Street, New York</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Your Name</label>
+                            <input type="text" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" placeholder="Enter your email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Subject</label>
+                        <input type="text" placeholder="How can we help?">
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea rows="6" placeholder="Tell us about your travel plans..."></textarea>
+                    </div>
+                    <button type="submit" class="contact-btn">Send Message
+                        <span>→</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
